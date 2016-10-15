@@ -1,0 +1,56 @@
+Functions are blocks of code that can be reused.
+
+Canvas uses 3 general types of tests
+
+Unit	- Tests functions directly w/out a browser
+		- Run really fast
+		- Should be the most numerous
+		- Devs do this
+		- example location: canvas-lms/spec/coffeescripts
+
+Mixed	- Tests things like API
+		- Can be a combo of unit setup and auto execution
+		- Devs and QA Auto write these
+		- example location: canvas-lms/spec/api
+
+Automated
+		- Tests Canvas like a user in the browser
+		- Run comparatively slowly
+		- QA Auto writes the majority, devs write some
+		- Location: canvas-lms/spec/selenium
+		- Selenium is a framework for automated tests
+
+
+To run an automated test
+
+- navigate to canvas-lms in console
+- be on a branch other than master
+  (you can run them in master there's just more room
+  for error)
+- to run all the tests in a file
+  $ bundle exec rspec [full file name]
+- to run one test in a file 
+  $ bundle exec rspec [full_file_name]:[line_number]
+
+Keywords in automation files
+
+include 	- make another file's contents avaliable to this file
+describe 	- lable and actions to take for everything in this file
+			  (usually)
+context		- label a group of test that have the same set of steps
+it			- one test, should have test_id which matches testRail
+f()			- find the thing
+ff()		- find all the things
+expect()	- verifies the result and prints helpful stuff if it fails
+get [path]	- opens the canvas page ie get '\grades'
+
+
+Searching / Finding elements
+
+.[class_name]
+	- searches through elements with the given class
+	- more than one element can have the same class
+
+#[id]
+	- finds the element with the given id
+	- ids are unique to the page

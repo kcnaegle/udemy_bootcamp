@@ -1,0 +1,38 @@
+body {
+	background: purple;
+}
+
+#pack {
+	background: pink;
+}
+
+.check {
+	text-decoration: line-through;
+}
+
+/*Star  Every element ever*/
+*{
+
+}
+
+/* Every ancor tag inside of an li */
+li a {
+
+}
+
+/* Adjecent Selector - ul after an h4 */
+
+h4 + ul {
+	
+}
+
+/*Attribute selector - every ancor with href*/
+
+a[href="google"]{
+
+}
+
+/*nth of type - every third ul */
+ul:nth-of-type(3){
+	;
+}

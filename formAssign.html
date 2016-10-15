@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Assignment</title>
+</head>
+<body>
+	<H3>Register</H3>
+	<form>
+		<div>
+			<label for="firstName">First Name</label>
+			<input id="firstName" type="text" placeholder="first name" required>
+
+			<label for="lastName">Last Name</label>
+			<input id="lastName" type="text" placeholder="last name" required>
+		</div>
+
+		<div>
+			<label for="male">Male</label>
+			<input name="gender" id="male" type="radio" value="male">
+			
+			<label for="female">Female</label>
+			<input name="gender" id="female" type="radio" value="female">
+			
+			<label for="other">Other</label>
+			<input name="gender" id="other" type="radio" value="other">
+		</div>
+
+		<div>
+			<label for="email">Email</label>
+			<input id="email" type="email" placeholder="email" required>
+
+			<label for="pw">Password</label>
+			<input id="pw" type="password" required>
+		</div>
+
+		<div>
+			<label>
+				Birthday
+				<select name="Month">
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+				</select>
+
+				<select name="Day">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+
+				<select name="Year">
+					<option>1986</option>
+					<option>2001</option>
+					<option>3020</option>
+				</select>
+			</label>
+		</div>
+
+		<div>
+			<label for="consent">I agree to the terms and conditions</label>
+			<input id="consent" type="checkbox" required>
+		</div>
+
+		<input type="submit">
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Goals and Status</title>
+	</head>
+	<style type="text/css">
+		body {
+			width: 90%;
+			margin: auto;
+			padding: 0px;
+			color: white;
+			font-family: Optima;
+		}
+
+		#header {
+			text-transform: uppercase;
+			text-align: center;
+			background: #76afb8;
+			letter-spacing: .3em;
+		}
+
+		h2 {
+			margin: 0;
+			font-weight: bold;
+			border-bottom: 2px solid white
+		}
+
+		h4 {
+			padding-top: 2px;
+			margin: 0;
+			border-bottom: 2px solid white
+		}
+
+		#kc {
+			/*width: 100%;*/
+			margin: auto;
+			border-spacing: 0px;
+		}
+
+		.one {
+			background: #326e6e;
+		}
+
+		.two {
+			background: #c6d9e8;
+			border-left: 2px solid white;
+		}
+		
+		.three {
+			background: #c1c7df;
+		}
+		
+		.four {
+			background: #7c99bb;
+			border-left: 2px solid white;
+		}
+
+		.status_cell {
+			text-align: left;
+			padding: 5px;
+		}
+
+		.status_cell h5 {
+			margin: 3px;
+		}
+
+		.status_cell p {	
+			font-size: .7em;
+			font-weight: lighter;
+			padding-left: 7px;
+			margin: 3px;
+		}
+
+		a:link, a:visited {
+			color: white;
+		}
+
+		tr th {
+			width: 50%;
+			/*border-top: 2px solid white;*/
+			/*border-left: 2px solid white;*/
+		}
+
+		#line {
+			border-top: 2px solid white;
+		}
+
+		p, h5 {
+			text-align: left;
+		}
+
+		ul {
+			font-size: .7em;
+			font-weight: lighter;
+			text-align: left;
+		}
+
+	</style>
+<body id="status_body">
+	<div id="header">
+		<h2>Status Report</h2>
+		<h4>April 18 - April 22</h4>
+	</div>
+		<table id="kc">
+			<tr class="body_row status_cell">
+				<th class="one">
+					<h5>Goal: Set up RollCall</h5>
+					<h5>Status: Complete</h5>
+				</th>
+				<th class="two">
+					<h5>Goal: Get a spec into gerrit</h5>
+					<h5>Status: Nope</h5>
+				</th>
+			</tr>
+
+			<tr class="status_cell">
+				<th class="one">
+					<p>
+						Using Amber's <a href="https://instructure.atlassian.net/wiki/display/ENG/RollCall+Setup">instructions</a> and help from Amber and Keith I can now run RollCall locally.
+					</p>
+				</th>
+				<th class="two">
+					<p>
+						Close, but not quite. I did check in some ids though. =/
+					</p>
+				</th>
+			</tr>
+
+			<tr id="line"><th></th><th></th></tr>
+			
+			<tr class="body_row status_cell">
+				<th class="three">
+					<h5>Goal: Shepherd one gerrit through jenkins and CRs</h5>
+					<h5>Status: Complete</h5>
+				</th>
+				<th class="four">
+					<h5>Other Happenings</h5>
+					<h5></h5>
+				</th>
+			</tr>
+
+			<tr class="status_cell">
+				<th class="three">
+					<p>
+						\o/ This was a reorg of some specs Derek wrote. It was interesting to do some clean up instead of writing new ones myself.
+					</p>
+				</th>
+				<th class="four">
+					<p>
+						<ul>
+							<li>
+								Maybe starting work with Jahnavi and Robert's team in May
+							</li>
+							<li>
+								Started adding sub-tasks to tickets with selenium specs. The team seems to approve.
+							</li>
+							<li>
+								Amber and I started to think about how to approach the gap analysis in terms of unit tests. Then our heads exploded. Meeting on this next week.
+							</li>
+						</ul>
+					</p>
+				</th>
+			</tr>
+		</table>
+</body>
+</html>

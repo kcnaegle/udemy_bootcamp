@@ -1,0 +1,14 @@
+h1 {
+	color: red;
+	border: 2px solid purple;
+}
+
+li {
+	color: purple;
+}
+
+body {
+	background: url(https://phenomenex.files.wordpress.com/2016/01/water.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

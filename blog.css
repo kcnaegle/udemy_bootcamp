@@ -1,0 +1,29 @@
+body {
+	border: 20px solid #bdc3c7;
+	width: 60%;
+	margin: auto;
+	padding: 20px;
+	font-family: Source Sans Pro
+}
+
+h5 {
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	color: #3498db;
+	margin: 0;
+}
+
+h2 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.first_paragraph {
+	border-left: 5px solid #bdc3c7;
+	margin: 0;
+	padding: 3px;
+}
+
+hr {
+	margin-bottom: 20px;
+}
